@@ -1,27 +1,26 @@
 Result 1:
-ID                  workflow-FQ39yk00jy1xKgG7KGy6Bp6j
+ID                  workflow-FQJ2qgQ0jy1XQY1P1589GP52
 Class               workflow
 Project             project-ByfFPz00jy1fk6PjpZ95F27J
 Folder              /Workflows
-Name                Automate_MultiQC_v1.0
+Name                Automate_MultiQC_v1.1
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.0
+Properties          github release=v1.1
 Tags                -
 Outgoing links      -
-Created             Tue Dec  4 15:38:12 2018
-Created by          nmns
-Last modified       Tue Dec 11 12:29:53 2018
-Edit Version        4
-Title               Automate_MultiQC_v1.0
+Created             Wed Dec 19 11:39:10 2018
+Created by          aledjones
+Last modified       Wed Dec 19 11:47:30 2018
+Edit Version        3
+Title               Automate_MultiQC_v1.1
 Summary             
 Output Folder       -
 Input Spec          stage-FQ3BJjj0jy1qFYP1J93fYvKx:
                     stage-FQ3BJjj0jy1qFYP1J93fYvKx.project_for_multiqc
                   (string)
-                    [stage-FQ3BJjj0jy1qFYP1J93fYvKx.coverage_level (string,
-                  default="30")]
+                    stage-FQ3BJjj0jy1qFYP1J93fYvKx.coverage_level (string)
                 stage-FQ3BJkj0jy1xxZFv1XqkzKp9:
                     [stage-FQ3BJkj0jy1xxZFv1XqkzKp9.multiqc_html (file,
                   default={"$dnanexus_link": {"outputField":
@@ -34,7 +33,7 @@ Output Spec         stage-FQ3BJjj0jy1qFYP1J93fYvKx:
                     stage-FQ3BJkj0jy1xxZFv1XqkzKp9.upload_multiqc
                   (array:file)
 Stage 0             stage-FQ3BJjj0jy1qFYP1J93fYvKx
-  Executable        applet-FPzzGVj0jy1zqyyy30KQ4KJ3
+  Executable        applet-FQJ2qX00jy1Yx2Py13v1JV1J
 Stage 1             stage-FQ3BJkj0jy1xxZFv1XqkzKp9
   Executable        applet-FQ76p3Q0jy1z3pgx0KxP9fp6
-temporary           false
+initializedFrom     workflow-FQ39yk00jy1xKgG7KGy6Bp6j
